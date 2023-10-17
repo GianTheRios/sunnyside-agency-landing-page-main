@@ -70,17 +70,53 @@ button:hover {
 .hero-text {
   font-family: 'Fraunces', serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 900;
-  padding: 20px;
+  padding: 0;
+  margin: 0;
   letter-spacing: 5px;
+  position: relative;
+  top: 20%;
 }
 
 /* make img smaller and fit below the hero-text */
 
 .hero-img img {
+  display: block;
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+
+.learn-more {
+  display: flex;
+  flex-direction: column;
+  
+  box-sizing: border-box;
+  width: 50%;
+ 
+
+}
+
+
+.egg img {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
+  padding: 0 0 0 50px;
   object-fit: cover;
 }
 
